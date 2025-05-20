@@ -30,7 +30,7 @@ h1 {
 
 .left-box {
     display: flex;
-    padding: 20px 150px;
+    padding: 20px 10px;
     font-weight: 400;
 }
 
@@ -130,10 +130,59 @@ h1 {
     left: 126px;
 }
 
+.arm-hour {
+    position: absolute;
+    width: 5px;
+    height: 128px;
+    background-color: black;
+    top: 33px;
+    left: 139px;
+}
+
+.arrow-hour {
+    font-size: 30px;
+    font-weight: 100;
+    color: black;
+    transform: rotate(180deg);
+    position: absolute;
+    top: -12px;
+    left: -8px;
+}
+
+.arm-minutes {
+    position: absolute;
+    width: 3px;
+    height: 100px;
+    background-color: black;
+    top: 170px;
+    left: 139px;
+}
+
+.arm-seconds {
+    position: absolute;
+    width: 110px;
+    height: 2px;
+    background-color: black;
+    top: 166px;
+    left: 38px;
+}
+
+.arrow-min {
+    font-size: 30px;
+    font-weight: 100;
+    color: black;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 79px;
+    left: -10px;
+}
+
 .right-box {
     display: flex;
-    padding: 20px 150px;
-    font-weight: 400;
+    padding: 20px 3-0px;
+    font-size: 20px;
+    font-weight: 200;
+    margin: 0 -50px;
 }
 
 .date {
@@ -143,4 +192,31 @@ h1 {
 .date span {
      font-weight: 100;
     font-size: 20px;
+}
+
+.calender {
+    position: relative;
+    font-size: 30px;
+    font-weight: normal;
+    margin: -20px;
+}
+
+.month {
+    display: flex;
+    margin: 30px;
+}
+
+table {
+    font-size: 25px;
+    font-weight: normal;
+    margin: 15px 15px;
+    border: 3px solid darkblue;
+}
+
+.start-countdown {
+    position: absolute;
+    padding: 10px 10px;
+    background-color: darkblue;
+    top: 530px;
+    left: 500px;
 }
